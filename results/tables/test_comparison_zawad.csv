@@ -1,0 +1,4 @@
+model,accuracy,macro_f1,weighted_f1,errors,within_family_%,cross_family_%
+BERT-Base B3,0.7345,0.7225,0.735,1928,39.9378,60.0622
+Bi-GRU S3,0.6409,0.6304,0.6413,2608,38.3052,61.6948
+GRU S3,0.6304,0.6214,0.632,2684,37.8539,62.1461

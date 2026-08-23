@@ -1,0 +1,11 @@
+rank,model,config,tier,embedding,test_accuracy,test_macro_f1,test_weighted_f1,val_macro_f1,train_time_s,owner
+1,BERT-Base,B3,transformer,wordpiece,0.7345083998898375,0.722483084141152,0.7350433229181103,0.7752604007459329,602.4,zawad
+2,LogisticRegression,LR-C2,classical,tfidf_clean,0.6982,0.6852,0.696,0.7377,12.11,hasib
+3,MultinomialNB,NB-C2,classical,tfidf_clean,0.7038,0.6843,0.6969,0.7348,0.02,hasib
+4,Bi-LSTM,S3,recurrent,word2vec,0.6766730928118976,0.6627369230477601,0.6751298676655436,0.7283051529247271,104.6,fabiha
+5,LSTM,S3,recurrent,word2vec,0.6719911870008263,0.6550759519287881,0.6684183158011623,0.7122221610303436,78.9,fabiha
+6,Bi-GRU,S3,recurrent,word2vec,0.6408702836684109,0.6304087616350864,0.6412523404055545,0.7069486385469226,89.9,zawad
+7,GRU,S3,recurrent,word2vec,0.6304048471495456,0.6213511612628579,0.6319859727985578,0.6887913216183994,51.7,zawad
+8,RandomForest,RF-C2,classical,tfidf_clean,0.6373,0.6134,0.6271,0.6593,47.06,hasib
+9,BiSimpleRNN,S3,recurrent,word2vec,0.4683,0.4328,0.444,0.464,190.03,hasib
+10,SimpleRNN,S3,recurrent,word2vec,0.3912,0.3405,0.3522,0.3744,88.31,hasib
